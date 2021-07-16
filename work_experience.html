@@ -1,0 +1,89 @@
+<!--
+File: work_experience.html
+GUI Assignment: Creating Your First Web Page
+Jacob Ouellet, UMass Lowell Computer Science, jacob_ouellet@student.uml.edu
+Copyright (c) 2021 by Jacob Ouellet. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Jacob Ouellet on July 15, 2021 at 11:01 PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jacob Ouellet Resume</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="topbar">
+            <header>    <!--Header that will contain the title of my page and the subtitle of which will be resume and my name-->
+                <h1 id="pageTitle">Resume</h1>
+                <h2 id="pageSubTitle">Jacob R. Ouellet</h2>
+            </header>
+            <nav>  <!--Nav will contain the navigation links to get around. Each link will go to a different page and uses a picture as the actual link-->
+                <div class="links">
+                    <a class="picture" href="index.html"><img src="images/home.png" alt="Home"></a>
+                    <!-- picture source "https://en.wikipedia.org/wiki/Everaldo_Coelho"-->
+                    <p class="pictureLabel">Home</p>
+                </div>
+                <div class="links">
+                    <a class="on" href="work_experience.html"><img src="images/handshake.jpg" alt="Handshake"></a> <!--on class is used to change the format of the link you are on-->
+                    <!-- picture source "https://perzonseo.com"-->
+                    <p class="pictureLabel">Work Experience</p>
+                </div>
+                <div class="links">
+                    <a class="picture" href="education.html"><img src="images/lecture_hall.jpg" alt="Lecture hall"></a> 
+                    <!-- picture source"https://commons.wikimedia.org/wiki/User:Serdechny"-->
+                    <p class="pictureLabel">Education</p>
+                </div>
+                <div class="links">
+                    <a class="picture" href="skills.html"><img src="images/code.jpg" alt="code"></a>
+                    <!-- picture source "https://pixabay.com/users/josborne_-1640589/"-->
+                    <p class="pictureLabel">Skills</p>
+                </div>
+                <div class="links">
+                    <a class="picture" href="references.html"><img src="images/phone.png" alt="phone"></a>
+                    <!-- picture source"https://www.flickr.com/photos/jasonahowie/"-->
+                    <p class="pictureLabel">References</p>
+                </div>
+            </nav>
+            <aside class="contact"> <!-- an aside containg my contact details-->
+                <h3>Contact Information</h3>
+                <p>Email:<a href="mailto:jacob_ouellet@student.uml.edu">Jacob_Ouellet@student.uml.edu</a></p>
+                <p>Phone:+1(555)444-3333</p>
+            </aside>
+        </div>
+        <section id="workExperience">   <!-- a few paragraphs for each job I've had and what I did there and how long I worked there for-->
+            <h3>Work Experience</h3>
+            <h4 class="company">Raytheon</h4>
+            <p class="date">09/2020 - present</p>
+            <p class="workDescription">Duty and roles consist of performing routine updates and improvement upon parametric analysis tools
+                that analyze the lifespan of specific parts and components. In addition, it is also necessary to edit, improve, and 
+                update documentation for existing software and software currently in the development phase.
+            </p>
+            <h4 class="company">Kronos</h4>
+            <p class="date">06/2019 - 05/2020</p>
+            <p class="workDescription">Duty and roles consisted of supporting engineering by building virtual machine requests in a queue and setting up 
+                our product onto the virtual machines for engineering to use to track down and fix issues, building automation to reduce space on our database 
+                servers, and supporting the development of automation to build virtual machines with our other department in Noida India.
+            </p>
+            <h4 class="company">NetNumber</h4>
+            <p class="date">06/2018 - 09/2019</p>
+            <p class="workDescription">Duty and roles consisted of supporting I.T. operations such as building out laptops for employees, diagnosing and fixing
+                I.T. related issues for employees, supporting virtual machine operations by managing VMware, resolving server related issues, setting up and
+                configuring servers and switches, adding entries to the DNS server, and building and supporting automation that backups third party business related 
+                applications.
+            </p>
+        </section>
+        <aside id="bio">    <!-- an aside that appears on every page and contains a quick bio about me-->
+            <h3>Biography</h3>
+            <img src="images/profile_pic.jpg" alt="My Photo">
+            <p>Hello, my name is Jacob. I am 23 years old and will be graduating with my bachelor's degree in computer science this year
+                from the University of Massachusettes Lowell. I have had three internships through my schooling and look forward 
+                to going full time this fall. I have a background in I.T., networking, and software development.</p>
+        </aside>
+        <footer>    <!-- footer containing who designed the page and copyright details-->
+            <p>Created by Jacob Ouellet<br>Copyright 2021</p>
+        </footer>
+    </body>
+</html>

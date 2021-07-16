@@ -1,0 +1,81 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Jacob Ouellet, UMass Lowell Computer Science, jacob_ouellet@student.uml.edu
+Copyright (c) 2021 by Jacob Ouellet. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Jacob Ouellet on July 15, 2021 at 11:01 PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jacob Ouellet Resume</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="topbar">
+            <header>    <!--Header that will contain the title of my page and the subtitle of which will be resume and my name-->
+                <h1 id="pageTitle">Resume</h1>
+                <h2 id="pageSubTitle">Jacob R. Ouellet</h2>
+            </header>
+            <nav>  <!--Nav will contain the navigation links to get around. Each link will go to a different page and uses a picture as the actual link-->
+                <div class="links">
+                    <a class="on" href="index.html"><img src="images/home.png" alt="Home"></a><!-- on class is used to change the format of the link you are on-->
+                    <!-- picture source "https://en.wikipedia.org/wiki/Everaldo_Coelho"-->
+                    <p class="pictureLabel">Home</p>
+                </div>
+                <div class="links">
+                    <a class="picture" href="work_experience.html"><img src="images/handshake.jpg" alt="Handshake"></a>
+                    <!-- picture source "https://perzonseo.com"-->
+                    <p class="pictureLabel">Work Experience</p>
+                </div>
+                <div class="links">
+                    <a class="picture" href="education.html"><img src="images/lecture_hall.jpg" alt="Lecture hall"></a> 
+                    <!-- picture source"https://commons.wikimedia.org/wiki/User:Serdechny"-->
+                    <p class="pictureLabel">Education</p>
+                </div>
+                <div class="links">
+                    <a class="picture" href="skills.html"><img src="images/code.jpg" alt="code"></a>
+                    <!-- picture source "https://pixabay.com/users/josborne_-1640589/"-->
+                    <p class="pictureLabel">Skills</p>
+                </div>
+                <div class="links">
+                    <a class="picture" href="references.html"><img src="images/phone.png" alt="phone"></a>
+                    <!-- picture source"https://www.flickr.com/photos/jasonahowie/"-->
+                    <p class="pictureLabel">References</p>
+                </div>
+            </nav>
+            <aside class="contact"> <!-- an aside containg my contact details-->
+                <h3>Contact Information</h3>
+                <p>Email:<a href="mailto:jacob_ouellet@student.uml.edu">Jacob_Ouellet@student.uml.edu</a></p>
+                <p>Phone:+1(555)444-3333</p>
+            </aside>
+        </div>
+        <section id="summary"> <!-- a summary of all of my achievments in a quick glance in a bullet point list-->
+            <h3>Summary</h3>
+            <ul>
+                <li>B.S. in computer science from Umass Lowell</li>
+                <li>A.S. in computer science from Manchester Community College</li>
+                <li>3 years of work experience</li>
+                <li>Worked on many major projects</li>
+                <li>Experienced in web automation</li>
+                <li>Have a background in I.T. and netorking</li>
+                <li>Familiar with source control and automated testing resources</li>
+            </ul>
+            <img src="images/morecode.jpg">
+            <!-- image source "https://commons.wikimedia.org/wiki/File:Code-820275_1280.jpg"-->
+        </section>
+        <aside id="bio">    <!-- an aside that appears on every page and contains a quick bio about me-->
+            <h3>Biography</h3>
+            <img src="images/profile_pic.jpg" alt="My Photo">
+            <p>Hello, my name is Jacob. I am 23 years old and will be graduating with my bachelor's degree in computer science this year
+                from the University of Massachusettes Lowell. I have had three internships through my schooling and look forward 
+                to going full time this fall. I have a background in I.T., networking, and software development.</p>
+        </aside>
+        <footer>    <!-- footer containing who designed the page and copyright details-->
+            <p>Created by Jacob Ouellet<br>Copyright 2021</p>
+        </footer>
+    </body>
+</html>
